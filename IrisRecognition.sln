@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrisRecognition", "IrisRecognition\IrisRecognition.csproj", "{E863EF2C-04B5-4EC0-8A54-BECDC1AB765A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30FFE680-1B60-4188-BEDC-171AB4AC049E}"
+	ProjectSection(SolutionItems) = preProject
+		iris.csv = iris.csv
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrisRecognitionML.Model", "IrisRecognitionML.Model\IrisRecognitionML.Model.csproj", "{007F5C38-F793-4545-83B0-2E13020A00A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrisRecognitionML.ConsoleApp", "IrisRecognitionML.ConsoleApp\IrisRecognitionML.ConsoleApp.csproj", "{9DF6CE69-F4B2-471A-A5BB-B64CBDEA48B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E863EF2C-04B5-4EC0-8A54-BECDC1AB765A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E863EF2C-04B5-4EC0-8A54-BECDC1AB765A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E863EF2C-04B5-4EC0-8A54-BECDC1AB765A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E863EF2C-04B5-4EC0-8A54-BECDC1AB765A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007F5C38-F793-4545-83B0-2E13020A00A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007F5C38-F793-4545-83B0-2E13020A00A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007F5C38-F793-4545-83B0-2E13020A00A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007F5C38-F793-4545-83B0-2E13020A00A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF6CE69-F4B2-471A-A5BB-B64CBDEA48B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF6CE69-F4B2-471A-A5BB-B64CBDEA48B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF6CE69-F4B2-471A-A5BB-B64CBDEA48B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF6CE69-F4B2-471A-A5BB-B64CBDEA48B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EF38F0A-FE11-466C-9E99-066444A97477}
+	EndGlobalSection
+EndGlobal
