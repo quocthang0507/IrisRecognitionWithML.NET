@@ -36,7 +36,7 @@ You can download this dataset at [https://archive.ics.uci.edu/ml/machine-learnin
 
 | ML.NET version | API type| Status| App Type| Data type | Scenario| ML Task | Algorithms|
 | --- |---| --- |---| --- |---| --- |---|
-| v1.5.0 | Dynamic API | Up-to-date | Console app | .txt files | Iris flowers classification | Multi-class classification | Many |
+| v1.5.0 | Dynamic API | Up-to-date | Console app | .csv file | Iris flowers classification | Multi-class classification | Many |
 
 ## Result
 
@@ -75,9 +75,10 @@ You can download this dataset at [https://archive.ics.uci.edu/ml/machine-learnin
 |Total experiment time : 35.99731 Secs |
 |Total number of models explored: 22 |
 
-|Top 5 models explored |
-| --- |
-| TrainerMicroAccuracyMacroAccuracyDuration #Iteration |
+### Top 5 models explored
+
+|# | Trainer|MicroAccuracy | MacroAccuracy | Duration | #Iteration |
+| --- | --- | --- | --- | --- | --- |
 |1SdcaMaximumEntropyMulti 0.9719 0.9773 5.01 |
 |2LightGbmMulti 0.9684 0.9769 3.02 |
 |3LightGbmMulti 0.9616 0.9688 2.03 |
