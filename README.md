@@ -79,8 +79,8 @@ You can download this dataset at [https://archive.ics.uci.edu/ml/machine-learnin
 
 |# | Trainer|MicroAccuracy | MacroAccuracy | Duration | #Iteration |
 | --- | --- | --- | --- | --- | --- |
-|1SdcaMaximumEntropyMulti 0.9719 0.9773 5.01 |
-|2LightGbmMulti 0.9684 0.9769 3.02 |
-|3LightGbmMulti 0.9616 0.9688 2.03 |
-|4SdcaMaximumEntropyMulti 0.9600 0.9614 0.84 |
-|5LbfgsMaximumEntropyMulti0.9588 0.9642 0.85 |
+|1|SdcaMaximumEntropyMulti | 0.9719 | 0.9773 | 5.0 | 1 |
+|2|LightGbmMulti | 0.9684 | 0.9769 | 3.0 | 2 |
+|3|LightGbmMulti | 0.9616 | 0.9688 | 2.0 | 3 |
+|4|SdcaMaximumEntropyMulti | 0.9600 | 0.9614 | 0.8 | 4 |
+|5|LbfgsMaximumEntropyMulti | 0.9588 | 0.9642 | 0.8 | 5 |
