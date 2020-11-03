@@ -6,6 +6,7 @@
 
 ### Source of Dataset
 
+- Abstract: Famous database; from Fisher, 1936
 - Creator: R.A. Fisher
 - Donor: Michael Marshall (MARSHALL%PLU '@' io.arc.nasa.gov)
 
